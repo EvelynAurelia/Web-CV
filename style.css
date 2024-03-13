@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*============== Flex ===============*/
+
+.container {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/*============== Font ===============*/
+
+.fs-top {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.fs-top-sm {
+    font-size: 2em;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fs-left {
+    font-size: 1.75em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.fs-left-sm {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.fs-left-md {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 0.5vh;
+}
+
+.fs-right {
+    font-size: 1.75em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 1vh;
+}
+
+.fs-right-md {
+    font-size: 1.5em;
+    font-weight: 00;
+    margin-bottom: 0.5vh;
+}
+
+.fs-right-sm {
+    font-size: 1.10em;
+    font-weight: 400;
+}
+
+/*============== Top Section ===============*/
+
+#cv-top {
+    position: relative;
+    background-color: #FFE6E6;
+    width: 100%;
+}
+
+.cv-name {
+    padding: 50px 0px 50px 650px;
+}
+
+/*============== Left Section ===============*/
+
+#cv-left {
+    position: absolute;
+    margin-left: 100px;
+    padding: 35px 50px 1vh 50px;
+    background-color: #AD88C6;
+}
+
+#cv-left img {
+    width: 17vw;
+    border-radius: 75%;
+}
+
+.cv-box {
+    width: 17vw;
+    margin-top: 50px;
+}
+
+.cv-box-mar {
+    margin-bottom: 2vh;
+}
+
+/*============== Bottom Section ===============*/
+
+#cv-bottom {
+    padding: 10px 50px 0px 650px;
+}
+
+.cv-box-bottom {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.cv-list {
+    list-style-type: none;
+    margin-top: 3vh;
+}
+
+.cv-list::before {
+    /* Unicode for two arrows */
+    content: "\00BB"; 
+    font-size: 1.25em;
+}
+
+.cv-time {
+    font-style: italic;
+}
+
+.cv-inline {
+    padding-right: 1vw;
+}
+
+.cv-skills p {
+    padding-top: 1vh;
+    display: inline-block;
+}
